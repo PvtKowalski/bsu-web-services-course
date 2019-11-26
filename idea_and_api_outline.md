@@ -6,7 +6,7 @@ The idea behind this web-service is to allow pet-owners who lost their beloved p
 
 ### Architectural style
 
-REST-like model is probably applicable term for this service, because:
+"REST-like" is probably applicable term for this service, because:
 
 1. WEB-service has a client-server architecture.
 2. No client state is transferred during the client-server communication.
@@ -67,20 +67,20 @@ E. g. `/animals/search?species=dog&color=black&seccolor=white&latitude=12.34&lon
 
 #### To publish an ad about your lost pet
 
-POST to /animals/
+*POST* to `/animals/`
 
 Returns a unique token that can be used to delete your ad.
 
 #### To search for ads that match some criteria
 
-GET request to /animals/search?params
+*GET* request to `/animals/search?params`
 
 Returns a bunch or `Pet` jsons.
 
 #### To delete an ad (to edit: DELETE + POST)
 
-DELETE /animals/<token>
+*DELETE* `/animals/<token>`
 
 #### To get help
 
-GET /animals/help
+*GET* `/animals/help`
