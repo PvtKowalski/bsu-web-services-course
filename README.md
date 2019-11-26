@@ -1,1 +1,1 @@
-# bsu-web-services-course
+# BSU Web Services Course
