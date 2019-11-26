@@ -2,7 +2,7 @@
 
 ### Purpose
 
-The idea behind this web-service is to allow pet-owners who lost their beloved pets to post ads, so that people who encounter suspected lost pets can make queries based on its properties, location of encounter, minimum reward.
+The idea behind this web-service is to allow pet-owners who lost their beloved pets to post ads, so that people who encounter suspected lost pets can make queries based on its properties, location of encounter, minimum reward, etc.
 
 ### Architectural style
 
