@@ -67,7 +67,7 @@ E. g. `/animals/search?species=dog&color=black&seccolor=white&latitude=12.34&lon
 
 #### To publish an ad about your lost pet
 
-*POST* to `/animals/`
+*POST* to `/animals/` with `Pet` representation payload.
 
 Returns a unique token that can be used to delete your ad.
 
